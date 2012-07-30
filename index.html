@@ -11,7 +11,7 @@ layout: default
 <h3>Blog.</h3>
 
 <ul class="entries">
-  {% for post in site.posts %}
+  {% for post in paginator.posts %}
  
   <li>
     <h2>
@@ -25,3 +25,6 @@ layout: default
  
   {% endfor %}
 </ul>
+
+<!-- Pagination links -->
+{% include pager.html %}
