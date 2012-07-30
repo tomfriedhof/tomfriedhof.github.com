@@ -1,4 +1,1 @@
-tomfriedhof.com
-===============
-
-Blog on tomfriedhof.com
+tomfriedhof.github.com
