@@ -3,6 +3,7 @@ created: 1233039318
 title: svn add - excluding the files directory
 layout: post
 excerpt: I use bash script that I found on <a href="http://gotdrupal.com/videos/svn-filtering">GotDrupal</a> for adding and removing files from svn using a regular expression.  I normally use the command for simple tasks, like the ones shown in the video on GotDrupal, but today I used a regular expression that took me a few minutes to get working.
+tags: [drupal, regular expressions, svn]
 ---
 I use bash script that I found on <a href="http://gotdrupal.com/videos/svn-filtering">GotDrupal</a> for adding and removing files from svn using a regular expression.  I normally use the command for simple tasks, like the ones shown in the video on GotDrupal, but today I used a regular expression that took me a few minutes to get working.
 

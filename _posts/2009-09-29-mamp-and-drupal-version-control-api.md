@@ -3,6 +3,7 @@ created: 1254232566
 title: MAMP and Drupal Version Control API
 layout: post
 excerpt: I recently installed the Version Control API Drupal module to give it a test run.  Unfortunately it did not work right out of the box.  I was getting the following error when trying to refresh my svn logs through my sandbox Drupal site running in MAMP
+tags: [drupal, mamp, svn, vcs]
 ---
 I recently installed the <a href="http://drupal.org/project/versioncontrol">Version Control AP</a>I Drupal module to give it a test run.  Unfortunately it did not work right out of the box.  I was getting the following error when trying to refresh my svn logs through my sandbox Drupal site running in MAMP:
 

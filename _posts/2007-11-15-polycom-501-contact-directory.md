@@ -3,6 +3,7 @@ created: 1195151243
 title: Polycom 501 Contact Directory
 layout: post
 excerpt: I finally found the format of the directory.xml file for my Polycom 501 IP phone after searching the web for about a half hour looking for it.  Where better place to keep the format than in the <a href="/files/PolycomAdminGuide167.pdf">Polycom Admin Guide</a>.  I found an entry on <a href="http://www.voip-info.org/wiki/index.php?page=Polycom+Soundpoint+IP+501">voip-info.org</a>, but it didn't mention all the XML elements I could use.  So being the curious guy that I am, I had to know all the options available to me.
+tags: [asterisk, trixbox]
 ---
 <br />
 <img class="float-left" src="/files/d_209.jpg" width="250" height="178" />

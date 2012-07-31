@@ -3,6 +3,7 @@ created: 1190478671
 title: Trixbox goes Drupal, so does 43folders
 layout: post
 excerpt: <img class="float-right" src="/files/logo.gif" width="187" height="62" />I was chatting with <a href="http://cleverclevergirl.com/">Crystal Williams</a> yesterday, the amazing organizer that put together the recent <a href="http://barcamp.org/DrupalCampLA">DrupalCampLA</a>, and she mentioned the <a href="http://www.sisumedia.com/">company</a> she works for just launched the new <a href="http://www.trixbox.com/">Trixbox</a> commercial site with <a href="http://drupal.org">Drupal</a>.  It's a very clean design and implementation of Drupal.
+tags: [drupal, GTD, productivity, trixbox]
 ---
 <p>
 <img class="float-right" src="/files/logo.gif" width="187" height="62" />I was chatting with <a href="http://cleverclevergirl.com/">Crystal Williams</a> yesterday, the amazing organizer that put together the recent <a href="http://barcamp.org/DrupalCampLA">DrupalCampLA</a>, and she mentioned the <a href="http://www.sisumedia.com/">company</a> she works for just launched the new <a href="http://www.trixbox.com/">Trixbox</a> commercial site with <a href="http://drupal.org">Drupal</a>.  It's a very clean design and implementation of Drupal.

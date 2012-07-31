@@ -3,7 +3,12 @@ layout: default
 ---
  
 <h2 class="content">{{page.title}}</h2>
- 
+<div class="tags">
+  Tags: 
+  {% for tag in page.tags %}
+    <a href="/tag/{{ tag }}">{{ tag }}</a>
+  {% endfor %}
+</div>
 <!-- <img src="{{ page.image }}" /> -->
- 
-{{ page.content }}
+
+<div id="content">{{ page.content }}</div>

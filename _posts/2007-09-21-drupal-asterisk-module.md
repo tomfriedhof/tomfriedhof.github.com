@@ -3,6 +3,7 @@ created: 1190405092
 title: Drupal Asterisk module
 layout: post
 excerpt: A couple weeks ago after I upgraded my home office PBX to <a href="http://www.trixbox.org/">Trixbox 2.2.4</a> I did a search on <a href="http://drupal.org">drupal.org</a> to see if there were any modules for <a href="http://asterisk.org/">Asterisk</a>.  Sure enough I <a href="http://drupal.org/project/asterisk">found one</a> that had been ported from drupal 4.6 by <a href="http://drupal.org/user/22079">Chad Phillips</a>, better known as <a href="http://drupal.org/user/22079">hunmonk</a> in the drupal community.
+tags: [asterisk, drupal, technology, trixbox, web development]
 ---
 <p>
 <img class="float-left" src="/files/Asterisk_logo_7.png" width="300" height="150" />

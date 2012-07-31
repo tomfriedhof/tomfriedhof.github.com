@@ -3,6 +3,7 @@ created: 1189746454
 title: My First Blog Post
 excerpt: "Well, I've been telling my self to start a blog for a long time, and it's been on my To-Do list forever, so I finally decided I want to mark that task as &quot;Done&quot;. Here it is, my blog, the musings of Tom Friedhof. There's not much to see here right now, but I intend to use this space as a place to share my thoughts."
 layout: post
+tags: [drupal, web development]
 ---
 Well, I've been telling my self to start a blog for a long time, and it's been on my To-Do list forever, so I finally decided I want to mark that task as &quot;Done&quot;. Here it is, my blog, the musings of Tom Friedhof. There's not much to see here right now, but I intend to use this space as a place to share my thoughts.
 
