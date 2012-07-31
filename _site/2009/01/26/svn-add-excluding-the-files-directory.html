@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>svn add - excluding the files directory</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/css/pygment_trac.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="javascripts/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="stylesheets/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="/">Home</a></li>
+          <!-- <li class="downloads"><a href="https://github.com/tomfriedhof/tomfriedhof.com/zipball/master">ZIP</a></li>
+                  <li class="downloads"><a href="https://github.com/tomfriedhof/tomfriedhof.com/tarball/master">TAR</a></li>
+                  <li class="title">DOWNLOADS</li> -->
+        </nav>
+      </div><!-- end header -->
+
+    <div class="wrapper">
+
+      <section>
+        <h2 class="content">svn add - excluding the files directory</h2>
+<div class="tags">
+  Tags: 
+  
+    <a href="/tag/drupal">drupal</a>
+  
+    <a href="/tag/regular expressions">regular expressions</a>
+  
+    <a href="/tag/svn">svn</a>
+  
+</div>
+<!-- <img src="" /> -->
+
+<div id="content">I use bash script that I found on <a href="http://gotdrupal.com/videos/svn-filtering">GotDrupal</a> for adding and removing files from svn using a regular expression.  I normally use the command for simple tasks, like the ones shown in the video on GotDrupal, but today I used a regular expression that took me a few minutes to get working.
+
+I wanted to add everything in my local development environment to the svn repository except for the files directory.  The first thing I did was add my Drupal install non recursively, then with my handy svngrep command added the rest of the directories, except for the files directory.
+
+<code>
+svn add -N drupal
+cd drupal
+svngrep '^\?.*[^( files$)].*$' add
+</code>
+</div>
+      </section>
+
+    </div>
+    <!--[if !IE]><script>fixScale(document);</script><!--<![endif]-->
+    
+  </body>
+</html>
